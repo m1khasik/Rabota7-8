@@ -19,4 +19,4 @@
 - Service Worker (для поддержки офлайн-режима)
 
 ## Установка
-git clone https://github.com/ваш_пользователь/ваш_репозиторий.git
+git clone https://github.com/m1khasik/Rabota7-8
