@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое PWA</title>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#4285f4">
+    <link rel="apple-touch-icon" href="/icons/icon-152x152.png">
+    <meta name="apple-mobile-web-app-status-bar-style" content="blacktranslucent">
+    <style>
+        body { font-family: Arial, sans-serif; }
+        #noteList { margin-top: 20px; }
+        .note { margin: 5px 0; }
+        .offline { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Добро пожаловать в мое PWA!</h1>
+    <input type="text" id="noteInput" placeholder="Введите заметку" />
+    <button id="addNoteButton">Добавить</button>
+    <div id="offlineMessage" class="offline" style="display: none;">Офлайн-режим</div>
+    <div id="noteList"></div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
